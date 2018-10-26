@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="113dp"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/textElement1"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="@android:drawable/editbox_background" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_weight="1"
+        android:text="@string/combine" />
+
+    <TextView
+        android:id="@+id/textElement2"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="@android:drawable/editbox_background" />
+
+</LinearLayout>

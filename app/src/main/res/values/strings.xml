@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Alchemy</string>
+    <string name="plus">+</string>
+    <string name="combine">Combine</string>
+    <string name="success" >you have discovered:</string>
+    <string name="failure" >your combination doesnt work!</string>
+</resources>
